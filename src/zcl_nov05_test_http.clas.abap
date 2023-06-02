@@ -17,8 +17,13 @@ ENDCLASS.
 CLASS zcl_nov05_test_http IMPLEMENTATION.
 
   METHOD if_http_service_extension~handle_request.
+    TRY.
 *    response->set_text( 'Hello, the Internet!' ).
-    response->set_text( get_html( ) ).
+        response->set_text( get_html( ) ).
+      CATCH cx_web_message_error cx_abap_context_info_error.
+        "handle exception
+        response->set_text( 'Oops!' ).
+    ENDTRY.
   ENDMETHOD.
 
   METHOD get_html.
