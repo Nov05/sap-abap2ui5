@@ -17,5 +17,8 @@ https://github.com/Nov05/sap-abap2ui5/blob/main/src/zcl_nov05_test_http.clas.aba
 
 * my class  
 
+* get the link to my application  
+<img src="https://raw.githubusercontent.com/Nov05/pictures/master/sap-abap2ui5/2023-06-01%2021_54_54-abap2UI5.jpg">  
+
 * my application  
-<img src="https://raw.githubusercontent.com/Nov05/pictures/master/sap-abap2ui5/2023-06-01%2021_54_54-abap2UI5.jpg">
+<img src="https://github.com/Nov05/pictures/blob/master/sap-abap2ui5/2023-06-01%2022_00_02-abap2UI5.jpg?raw=true">
