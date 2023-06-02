@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_HTTP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HTTPID>ZNOV05_TEST_HTTP</HTTPID>
+   <HTTPTEXT>
+    <ID>ZNOV05_TEST_HTTP</ID>
+    <VERSION>I</VERSION>
+    <LANG>E</LANG>
+    <SHORTTEXT>20230601 create an http service in SAP BTP (trial)</SHORTTEXT>
+   </HTTPTEXT>
+   <HTTPHDL>
+    <UCONSERVHANDLER>
+     <ID>ZNOV05_TEST_HTTP</ID>
+     <VERSION>I</VERSION>
+     <SERVICEORDER>01</SERVICEORDER>
+     <SERVICEHANDLER>ZCL_NOV05_TEST_HTTP</SERVICEHANDLER>
+    </UCONSERVHANDLER>
+   </HTTPHDL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
