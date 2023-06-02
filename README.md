@@ -7,7 +7,7 @@
 ---
 
 ### Create an application by using abap2UI5  
-* my class  
+* abap code of my class  
 
 * get the link to my application  
 <img src="https://raw.githubusercontent.com/Nov05/pictures/master/sap-abap2ui5/2023-06-01%2021_54_54-abap2UI5.jpg">  
@@ -19,7 +19,7 @@
 
 ### Test creating an HTTP service  
 
-* handler class implementation code:  
+* abap code of the handler class   
 https://github.com/Nov05/sap-abap2ui5/blob/main/src/zcl_nov05_test_http.clas.abap  
 
 * the service object  
