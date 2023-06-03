@@ -8,7 +8,7 @@
 ---
 
 ### AXAGE - ABAP teXt Adventure Game Engine  
-* ABAP class  
+* ABAP class (Thomas Jung's code)    
 https://github.com/Nov05/sap-abap2ui5/blob/main/src/znov05_cl_abap2ui5_axage.clas.abap  
 
 * output  
