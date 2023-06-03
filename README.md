@@ -5,7 +5,7 @@
 
 👉 [【my notes】](https://docs.google.com/document/d/13tiPco-_IDn_uZSP94QdgXN9lTABFTn2QKjVw_yqZKM)
 
-Pull [the abap2UI5 package](https://github.com/oblomov-dev/abap2UI5) to your ABAP environment. 
+First of all, pull [the abap2UI5 package](https://github.com/oblomov-dev/abap2UI5) to your ABAP environment. 
 
 ---
 
