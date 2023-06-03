@@ -17,6 +17,20 @@ ENDCLASS.
 CLASS zcl_nov05_test_http IMPLEMENTATION.
 
   METHOD if_http_service_extension~handle_request.
+
+    DATA(lt_config) = VALUE z2ui5_if_client=>ty_t_name_value(
+        ( name = `data-sap-ui-theme` value = `sap_horizon_hcb` )
+*        (  name = `src`                       value = `https://sdk.openui5.org/resources/sap-ui-core.js` )
+*        (  name = `data-sap-ui-libs`          value = `sap.m` )
+*        (  name = `data-sap-ui-bindingSyntax` value = `complex` )
+*        (  name = `data-sap-ui-frameOptions`  value = `trusted` )
+*        (  name = `data-sap-ui-compatVersion` value = `edge` )
+        ).
+
+*    DATA(lv_resp) = SWITCH #( request->get_method( )
+*        WHEN 'GET'  THEN z2ui5_cl_http_handler=>http_get( t_config = lt_config )
+*        WHEN 'POST' THEN z2ui5_cl_http_handler=>http_post( ) ).
+
     TRY.
 *    response->set_text( 'Hello, the Internet!' ).
         response->set_text( get_html( ) ).
