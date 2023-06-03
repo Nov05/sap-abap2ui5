@@ -41,7 +41,7 @@ https://github.com/Nov05/sap-abap2ui5/blob/main/src/znov05_cl_abap2ui5_01.clas.a
 
 ### AXAGE - ABAP teXt Adventure Game Engine 
 
-* the repo https://github.com/Ennowulff/axage
+* the repo - https://github.com/Ennowulff/axage
 
 * the abap2UI5 version (Thomas Jung's code)    
 https://github.com/Nov05/sap-abap2ui5/blob/main/src/znov05_cl_abap2ui5_axage.clas.abap  
