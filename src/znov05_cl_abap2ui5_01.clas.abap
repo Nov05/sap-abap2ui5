@@ -28,7 +28,7 @@ CLASS znov05_cl_abap2ui5_01 IMPLEMENTATION.
 
     CASE client->get( )-event.
       WHEN 'BUTTON_POST'.
-        client->popup_message_toast( |{ input_user } { input_date } - send to the server| ).
+        client->popup_message_toast( |{ input_user } on { input_date } - send to the server| ).
       WHEN 'BACK'.
         client->nav_app_leave( client->get_app( client->get( )-id_prev_app_stack  ) ).
     ENDCASE.
