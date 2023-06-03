@@ -26,6 +26,8 @@ https://github.com/Nov05/sap-abap2ui5/blob/main/src/znov05_cl_abap2ui5_01.clas.a
 * my application  
 <img src="https://github.com/Nov05/pictures/blob/master/sap-abap2ui5/2023-06-01%2022_00_02-abap2UI5.jpg?raw=true">
 
+* change the theme in the [HTTP service handler class](https://github.com/Nov05/sap-abap2ui5/blob/main/src/zcl_nov05_test_http.clas.abap)   
+<img src="https://github.com/Nov05/pictures/blob/master/sap-abap2ui5/2023-06-02%2023_06_57-abap2UI5.jpg?raw=true">  
 ---
 
 ### Test creating an HTTP service  
